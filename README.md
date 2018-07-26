@@ -1,24 +1,32 @@
-# README
+# USINE PROJECT ON RAILS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rennes City
 
-Things you may want to cover:
+Version de ruby utilisée - ruby '2.5.1'
 
-* Ruby version
 
-* System dependencies
+How to install and test?
 
-* Configuration
+Download or clone the repository
+$ git clone https://github.com/RomainSai/Usine-Project-Rails  
+Run the command bundle install to install the necessary gems
+$ bundle install
 
-* Database creation
+Update your database structure with the migration command.The database in not uploaded to github, so it is necessary tu run the differents migrations:
+$ rails db:migrate
+Add data into your database with the seed file:
+$ rails db:seed
 
-* Database initialization
+Database structure:
 
-* How to run the test suite
+2 models:
 
-* Services (job queues, cache servers, search engines, etc.)
+* assembly
+* part
 
-* Deployment instructions
+1 table "join":
 
-* ...
+AssemblyPart
+
+
+Enjoy :)
